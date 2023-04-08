@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BINDER V0.1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="eel.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" href="/favicon1.png">
+</head>
+
+<body>
+    <div class="headbox">
+        <div class="texts">
+            <form action="#">
+                <h1 id="binder">BINDER</h1>
+                <h3 id="textPodBinder">Bind all what you want!</h3>
+            </form>
+        </div>
+    </div>
+
+    <div class="box">
+        <form action="#">
+            <br>
+            <h4 id="hFour">What function you want bind?</h4>
+            <select name="func" id="func" , required="required">
+                <option value="+jump">jump</option>
+                <option value="+forward">forward</option>
+                <option value="+back">back</option>
+            </select> <br>
+            <h4 id="hFour2">Which key will be binded?</h4>
+            <select name="key" id="key">
+                <option value="a">a</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+                <option value="d">d</option>
+                <option value="e">e</option>
+                <option value="f">f</option>
+                <option value="g">g</option>
+                <option value="h">h</option>
+                <option value="i">i</option>
+                <option value="j">j</option>
+                <option value="k">k</option>
+                <option value="l">l</option>
+                <option value="m">m</option>
+                <option value="n">n</option>
+                <option value="o">o</option>
+                <option value="p">p</option>
+                <option value="q">q</option>
+                <option value="r">r</option>
+                <option value="s">s</option>
+                <option value="t">t</option>
+                <option value="u">u</option>
+                <option value="v">v</option>
+                <option value="w">w</option>
+                <option value="x">x</option>
+                <option value="y">y</option>
+                <option value="z">z</option>
+                <option value="space">space</option>
+                <option value="MWHEELUP">Wheel UP</option>
+                <option value="MWHEELDOWN">Wheel DOWN</option>
+                <option value="esc">ESC</option>
+                <option value="tab">TAB</option>
+                <option value="shift">SHIFT</option>
+                <option value="ctrl">CTRL</option>
+                <option value="alt">ALT</option>
+            </select> <br>
+            <input type="submit" id="button" value="SUBMIT" onclick="alerted();">
+            <div id="myTable" style="display:none;">
+                <p id="bindText"></p>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
